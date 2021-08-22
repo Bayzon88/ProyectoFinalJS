@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <title>Document</title>
+  </head>
+  <header>
+    <h1 class="header">Carrito de Compras</h1>
+  </header>
+  <body>
+    <form action="" class="form-data">
+      <fieldset class="form-data__input">
+        <h2>Crear Stock</h2>
+        <div class="form-data__input--name">
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div class="form-data__input--precio">
+          <label for="name">Precio</label>
+          <input type="number" name="precio" id="precio" placeholder="Precio" />
+        </div>
+        <div class="form-data__input--precio">
+          <label for="name">Stock</label>
+          <input type="number" name="stock" id="stock" placeholder="Stock" />
+        </div>
+
+        <button type="submit" onclick="actualizarStock()">Crear Stock</button>
+      </fieldset>
+    </form>
+  </body>
+
+  <script src="./js/code.js"></script>
+</html>
